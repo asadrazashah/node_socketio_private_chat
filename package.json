@@ -1,0 +1,29 @@
+{
+  "name": "chat server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Asad Raza",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "jsonwebtoken": "^8.5.1",
+    "moment-timezone": "^0.5.31",
+    "mongoose": "^5.9.2",
+    "nodemailer": "^6.4.5",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "nodemon": "^2.0.6",
+    "randomstring": "^1.1.5",
+    "socket.io": "^2.3.0"
+  }
+}
